@@ -5,11 +5,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
+  padding: 2pc 0;
 
   background: url("../public/evie-s-yDN0aAiHSMg-unsplash.jpg") center/cover
-    no-repeat;
+    no-repeat fixed;
 }
 
 .container {

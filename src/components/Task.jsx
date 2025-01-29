@@ -8,6 +8,7 @@ const Task = (props) => {
         <p>{props.tarea}</p>
       </div>
       <div id="imagen" onClick={() => props.Eliminar(props.index)}></div>
+      
     </div>
   );
 };

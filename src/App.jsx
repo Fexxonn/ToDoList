@@ -9,6 +9,12 @@ export default function ToDoList() {
   );
   const ActualizarTexto = (e) => setTexto(e.target.value);
 
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      AgregarTarea();
+    }
+  });
+
   const AgregarTarea = () => {
     if (texto.trim()) {
       const nuevasTareas = [...tareas, texto];
