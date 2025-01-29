@@ -1,0 +1,93 @@
+/* ToDoList.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  background: url("../public/evie-s-yDN0aAiHSMg-unsplash.jpg") center/cover
+    no-repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.todo-wrapper {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+.input-group input {
+    background: transparent;
+}
+.input-group input:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: #819A96;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  margin-top: 15px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #d9534f;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #c9302c;
+}
+
+.empty-text {
+  text-align: center;
+  color: #888;
+}
